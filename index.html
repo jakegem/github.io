@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Jake Gemerek</title>
-	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jake Gemerek's personal and professional portfolio. Explore my world of robotics, software engineering, and AI.">
+    <title>Jake Gemerek, PhD</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<h1>Jake Gemerek, PhD</h1>
-		<div class="badge-container">
+    <header>
+        <h1>Jake Gemerek, PhD</h1>
+        <div class="badge-container">
 			<a href="https://github.com/jakegem">
 				<img src="https://img.shields.io/badge/GitHub-Profile-blue" alt="GitHub badge">
 			</a>
-			<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-			<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="dark" data-type="VERTICAL" data-vanity="jakegemerek" data-version="v1">
-				<a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jakegemerek?trk=profile-badge">Jake Gemerek</a>
-			</div>
+			<a href="https://www.linkedin.com/in/jakegemerek" target="_blank" title="LinkedIn">
+				<img src="resources/LI-In-Bug.png" alt="LinkedIn" class="social-icon">
+			</a>
 		</div>
 		<nav>
 			<ul>
@@ -28,9 +31,8 @@
 	</header>
 	<main>
 		<section id="about">
-			<about>
-				<h1>Welcome to my website!</h1>
-				<h2>Jake Gemerek</h2>
+			<article>
+				<h1>About</h1>
 				<p>
 				  I'm a robotics PhD with industry experience in software engineering and 
 				  diverse autonomy applications. With a strong background in machine learning, 
@@ -75,32 +77,117 @@
 				  website. Join me as we delve into the fascinating world of robotics, AI, and 
 				  autonomous systems, and discover the endless possibilities of cutting-edge technology!
 				</p>
-			</about>
+			</article>
 		</section>
-		<!-- <section id="projects">
-			<h2>Professional Projects</h2>
-			<p>Here are some professional projects</p>
-			<h3>Construction Autonomy</h3>
-			<p>Here is some construction autonomy work.</p>
-			<h3>Defense Innovation</h3>
-			<p>Here is some defense autonomy work.</p>
-			<h3>Moog Core Business Software and Systems</h3>
-			<p>Here is some stuff on Moog core businesses that I've supported.</p>
-		</section> -->
-		<section id="personal">
-			<h2>Personal Projects & Hobbies</h2>
-			<h3>Music</h2>
-			<!-- <p>Here are some music examples.</p> -->
-			<h3>Carpentry</h2>
-			<!-- <p>Here are some carpentry examples.</p> -->
-			<!-- <h3>Apollo</h2> -->
-			<!-- <p>Here is Apollo!</p> -->
-		</section>
-		<h2 id="contact">Contact</h2>
-		<!-- <p>(716) 949-4659</p> -->
-		<p>jake.gemerek@gmail.com</p>
+
+		<div class="container mt-4">
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Carpentry</h5>
+							<img class="card-img-top" src="resources/coop_construction.jpg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Music</h5>
+							<img class="card-img-top" src="resources/gibson.jpg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<!-- Repeat for other projects -->
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Welding & Metal Fabrication</h5>
+							<img class="card-img-top" src="resources/no-image-svgrepo-com.svg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Programming & Mechatronics</h5>
+							<img class="card-img-top" src="resources/no-image-svgrepo-com.svg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<!-- Repeat for other projects -->
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Software Development</h5>
+							<img class="card-img-top" src="resources/no-image-svgrepo-com.svg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Chickens!</h5>
+							<img class="card-img-top" src="resources/chickens.jpg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<!-- Repeat for other projects -->
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Gaming & Game Development</h5>
+							<img class="card-img-top" src="resources/no-image-svgrepo-com.svg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Family</h5>
+							<img class="card-img-top" src="resources/family.jpg" alt="Project 1">
+							<p class="card-text">Short description of the project.</p>
+							<!-- <a href="project1-details.html" class="btn btn-primary">View Details</a> -->
+							<a href="#" class="btn btn-primary disabled" aria-disabled="true">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<!-- Repeat for other projects -->
+			</div>
+		</div>
+		
+		
 	</main>
 	<footer>
+		<!-- <p>(716) 949-4659</p> -->
+		<p>jake.gemerek@gmail.com</p>
 		<p>&copy; 2023 Jake Gemerek. All rights reserved.</p>
 	</footer>
 </body>
